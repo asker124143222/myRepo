@@ -10,9 +10,6 @@ import java.util.HashMap;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        //writeTestData();
-        //checkSampleNum();
-//        checkSampleNum2();
         choiceFunc();
     }
 
@@ -24,10 +21,12 @@ public class Main {
         funcMap.put("0","-> 0：退出程序");
         funcMap.put("1","-> 1：对比两个样本，输出两个样本第一和第二列不同的数据");
         funcMap.put("2","-> 2：对比两个样本，输出第一个样本对于第二样本第一列的差集");
+        funcMap.put("3","-> 3：写入测试数据");
 
         HashMap<String,String> funcMap2 = new HashMap<>();
         funcMap2.put("1","checkSampleNum");
         funcMap2.put("2","checkSampleNum2");
+        funcMap2.put("3","writeTestData");
 
         for(String key:funcMap.keySet())
         {
