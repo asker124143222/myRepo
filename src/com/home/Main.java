@@ -21,14 +21,13 @@ public class Main {
         System.out.println("输入所需功能编号：");
 
         HashMap<String,String> funcMap = new HashMap<>();
-        funcMap.put("0","0：退出程序");
-        funcMap.put("1","1：对比两个样本，输出两个样本第一和第二列不同的数据");
-        funcMap.put("2","2：对比两个样本，输出第一个样本对于第二样本第一列的差集");
+        funcMap.put("0","-> 0：退出程序");
+        funcMap.put("1","-> 1：对比两个样本，输出两个样本第一和第二列不同的数据");
+        funcMap.put("2","-> 2：对比两个样本，输出第一个样本对于第二样本第一列的差集");
 
         HashMap<String,String> funcMap2 = new HashMap<>();
         funcMap2.put("1","checkSampleNum");
         funcMap2.put("2","checkSampleNum2");
-
 
         for(String key:funcMap.keySet())
         {
